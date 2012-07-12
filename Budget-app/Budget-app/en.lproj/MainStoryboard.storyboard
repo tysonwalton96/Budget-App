@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E2520" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E2705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
     <dependencies>
         <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
@@ -31,42 +31,63 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="removeKeyBoard" destination="2" eventType="touchUpOutside" id="Laa-fK-7H7"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Rent " minimumFontSize="17" id="Prm-Bb-Wyc">
                                         <rect key="frame" x="109" y="83" width="97" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="removeKeyBoard" destination="2" eventType="touchUpInside" id="uSQ-dq-TKd"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Car note" minimumFontSize="17" id="7th-Qb-kap">
                                         <rect key="frame" x="109" y="122" width="97" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="removeKeyBoard" destination="2" eventType="touchUpInside" id="dYg-Wf-taC"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Food " minimumFontSize="17" id="Qsc-e8-pGo">
                                         <rect key="frame" x="109" y="161" width="97" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="removeKeyBoard" destination="2" eventType="touchUpInside" id="6da-N7-NpX"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insurance " minimumFontSize="17" id="TjX-Xw-0Iz">
                                         <rect key="frame" x="109" y="200" width="97" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="removeKeyBoard" destination="2" eventType="touchUpInside" id="iVB-RD-O7V"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PG&amp;E" minimumFontSize="17" id="79R-Qo-40A">
                                         <rect key="frame" x="109" y="239" width="97" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="removeKeyBoard" destination="2" eventType="touchUpInside" id="Jfc-Gd-m2w"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cable" minimumFontSize="17" id="ijX-IH-mV1">
                                         <rect key="frame" x="109" y="278" width="97" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="removeKeyBoard" destination="2" eventType="touchUpInside" id="zRr-2C-eXS"/>
+                                        </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sqZ-ao-O5E">
                                         <rect key="frame" x="95" y="317" width="124" height="37"/>
@@ -79,6 +100,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="makeBudget" destination="2" eventType="touchUpInside" id="ksn-E6-NU6"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="X1C-iZ-hiQ">
                                         <rect key="frame" x="70" y="362" width="175" height="21"/>
@@ -99,6 +123,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="inputCable" destination="ijX-IH-mV1" id="eH3-Dj-zgV"/>
+                        <outlet property="inputCarnote" destination="7th-Qb-kap" id="S0G-vy-j5z"/>
+                        <outlet property="inputFood" destination="Qsc-e8-pGo" id="rZl-TH-diL"/>
+                        <outlet property="inputIncome" destination="nBC-SQ-V5e" id="NFg-p5-BVh"/>
+                        <outlet property="inputInsurance" destination="TjX-Xw-0Iz" id="8Ow-Ab-R8w"/>
+                        <outlet property="inputPower" destination="79R-Qo-40A" id="qxA-IT-jWr"/>
+                        <outlet property="inputRent" destination="Prm-Bb-Wyc" id="WKP-XP-EJf"/>
+                    </connections>
                 </viewController>
             </objects>
         </scene>
@@ -106,6 +139,19 @@
     <classes>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="makeBudget"/>
+                <relationship kind="action" name="removeKeyBoard"/>
+                <relationship kind="outlet" name="inputCable" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="inputCarnote" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="inputFood" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="inputIncome" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="inputInsurance" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="inputPower" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="inputRent" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="savingsLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="spendingLabel" candidateClass="UILabel"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
