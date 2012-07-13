@@ -7,12 +7,29 @@
 //
 
 #import "ViewController.h"
+#import <Foundation/NSDecimalNumber.h>
+
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
+
+@synthesize inputIncome;
+@synthesize inputFood;
+@synthesize inputRent;
+@synthesize inputCable;
+@synthesize inputCarnote;
+@synthesize inputPower;
+@synthesize inputInsurance;
+@synthesize savingsLabel;
+@synthesize spendingLabel;
+
+
+
+
 
 - (void)viewDidLoad
 {
@@ -30,19 +47,38 @@
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
-int income, rent, carNote, food,insurance,power,cable;
+
+-(IBAction)makeBudget 
+{
+
+  double totalIncome, rent, carNote, food, insurance, power, cable, leftover, expenses, savings, spending;
+    totalIncome = [inputIncome.text doubleValue];
+    rent = [inputRent.text doubleValue];
+    carNote = [inputCarNote.text doubleValue];
+    food = [inputFood.text doubleValue];
+    insurance = [inputInsurance.text doubleValue];
+    power = [inputPower.text doubleValue];
+    cable = [inputCable.text doubleValue];
+    
+    
+    
+    
+    
+    expenses = rent + carNote + food + insurance + power + cable;
+    leftover = totalIncome - expenses;
+    savings = leftover * .10;
+    spending = leftover - savings;
+    
+    
+
+}
 
 
+-(IBAction)removeKeyBoard
+{
+    [inputIncome resignFirstResponder];
 
-
-
-
-
-
-
-
-
-
+}
 
 
 
