@@ -68,7 +68,9 @@
     leftover = totalIncome - expenses;
     savings = leftover * .10;
     spending = leftover - savings;
-    
+
+    savingsLabel.text = [NSString stringWithFormat:@"$%.2f", savings];
+    spendingLabel.text = [NSString stringWithFormat:@"$%.2f", spending];
     
 
 }

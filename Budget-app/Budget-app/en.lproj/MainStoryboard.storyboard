@@ -32,7 +32,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <action selector="removeKeyBoard" destination="2" eventType="touchUpOutside" id="Laa-fK-7H7"/>
+                                            <action selector="removeKeyBoard" destination="2" eventType="editingDidEndOnExit" id="OUf-WD-0eh"/>
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Rent " minimumFontSize="17" id="Prm-Bb-Wyc">
@@ -41,7 +41,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <action selector="removeKeyBoard" destination="2" eventType="touchUpInside" id="uSQ-dq-TKd"/>
+                                            <action selector="removeKeyBoard" destination="2" eventType="editingDidEndOnExit" id="tSg-mV-jPk"/>
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Car note" minimumFontSize="17" id="7th-Qb-kap">
@@ -50,7 +50,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <action selector="removeKeyBoard" destination="2" eventType="touchUpInside" id="dYg-Wf-taC"/>
+                                            <action selector="removeKeyBoard" destination="2" eventType="editingDidEndOnExit" id="nOx-i7-yvQ"/>
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Food " minimumFontSize="17" id="Qsc-e8-pGo">
@@ -59,7 +59,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <action selector="removeKeyBoard" destination="2" eventType="touchUpInside" id="6da-N7-NpX"/>
+                                            <action selector="removeKeyBoard" destination="2" eventType="editingDidEndOnExit" id="0pq-Yq-F7i"/>
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insurance " minimumFontSize="17" id="TjX-Xw-0Iz">
@@ -68,7 +68,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <action selector="removeKeyBoard" destination="2" eventType="touchUpInside" id="iVB-RD-O7V"/>
+                                            <action selector="removeKeyBoard" destination="2" eventType="editingDidEndOnExit" id="1Sv-2d-gwP"/>
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PG&amp;E" minimumFontSize="17" id="79R-Qo-40A">
@@ -77,7 +77,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <action selector="removeKeyBoard" destination="2" eventType="touchUpInside" id="Jfc-Gd-m2w"/>
+                                            <action selector="removeKeyBoard" destination="2" eventType="editingDidEndOnExit" id="BZ8-xn-gWO"/>
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cable" minimumFontSize="17" id="ijX-IH-mV1">
@@ -86,7 +86,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <action selector="removeKeyBoard" destination="2" eventType="touchUpInside" id="zRr-2C-eXS"/>
+                                            <action selector="removeKeyBoard" destination="2" eventType="editingDidEndOnExit" id="RgZ-Ll-z6h"/>
                                         </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sqZ-ao-O5E">
@@ -131,6 +131,8 @@
                         <outlet property="inputInsurance" destination="TjX-Xw-0Iz" id="8Ow-Ab-R8w"/>
                         <outlet property="inputPower" destination="79R-Qo-40A" id="qxA-IT-jWr"/>
                         <outlet property="inputRent" destination="Prm-Bb-Wyc" id="WKP-XP-EJf"/>
+                        <outlet property="savingsLabel" destination="X1C-iZ-hiQ" id="vrp-Nx-vsd"/>
+                        <outlet property="spendingLabel" destination="pUi-dN-LOO" id="bU3-6H-nDJ"/>
                     </connections>
                 </viewController>
             </objects>
